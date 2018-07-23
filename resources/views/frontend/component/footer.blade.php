@@ -5,10 +5,10 @@
             <div class="row">
                 <div class="col-md-6 col-sm-6">
                     <section class="widget about-widget clearfix">
-                        <h4 class="title hide">关于我们</h4>
+                        <h4 class="title">关于我们</h4>
                         <a class="footer-logo" href="javascript:void(0);">
-                            {{--<img src="{{ url('/templates/moban2030/assets/images/footer-logo.png') }}" alt="Footer Logo">--}}
-                            {{--<img src="{{ config('company.info.logo') }}" alt="Footer Logo">--}}
+                            <img src="{{ url('/templates/moban2030/assets/images/footer-logo.png') }}" alt="Footer Logo">
+                            {{--<img src="{{ config('company.info.logo') }}" alt="Foo、ter Logo">--}}
                         </a>
                         <p>{{ config('company.info.description') }}</p>
                         <ul class="social-icons clearfix">
@@ -29,6 +29,7 @@
                     <section class="widget address-widget clearfix">
                         <h4 class="title">联系我们</h4>
                         <ul>
+                            <li><i class="fa fa-copyright"></i> 上海闵颛商贸有限公司 </li>
                             {{--<li><i class="fa fa-map-marker"></i> {{ config('company.info.address') }} </li>--}}
                             <li><i class="fa fa-map-marker"></i> 上海市嘉定区城中路桃园高层285号703室 </li>
                             <li><i class="fa fa-user"></i> {{ config('company.info.linkman') }} </li>

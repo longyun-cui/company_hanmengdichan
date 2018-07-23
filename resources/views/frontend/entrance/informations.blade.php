@@ -2,7 +2,8 @@
 
 
 {{--html.head--}}
-@section('head_title')最新资讯-{{ config('company.info.short_name') }}@endsection
+{{--@section('head_title')最新资讯-{{ config('company.info.short_name') }}@endsection--}}
+@section('head_title')最新资讯@endsection
 @section('meta_author')@endsection
 @section('meta_title')@endsection
 @section('meta_description')@endsection
